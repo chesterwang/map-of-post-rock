@@ -1,6 +1,7 @@
 const hostName = window.location.hostname;
 const isDev = hostName !== 'anvaka.github.io';
-const server = isDev ? `http://${hostName}:8080/` : 'https://anvaka.github.io/map-of-github-data/';
+// const server = isDev ? `http://${hostName}:8080/` : 'https://anvaka.github.io/map-of-github-data/';
+const server = 'https://chesterwang.github.io/map-of-post-rock-data/';
 const params = new URLSearchParams(window.location.search);
 const version = params.get('v') || 'v2';
 
